@@ -37,7 +37,7 @@ const Products = () => {
       <ProductForm addProduct={addProduct} />
 
       <section>
-        <Search />
+        <Search  product ={product} setProduct={setProduct} />
         <ProductList product={product} deleteBtn={deleteBtn} />
       </section>
     </div>
